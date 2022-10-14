@@ -1,0 +1,48 @@
+:root {
+    background-image: url(leaves-g2c44308d1_1920.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divClass {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: darkred;
+}
+
+h4 {
+    align-self: flex-end;
+}
+
+img {
+    width: 400px;
+    margin: 15px;
+}
+
+#thirdDiv {
+    background-color: bisque;
+    padding: 50px;
+    border: 1.5px solid black;
+}
+
+ul {
+    padding: 0;
+}
+
+li::marker {
+    content: none;
+}
+
+.span {
+    align-items: center;
+}
+
+#spanId {
+    font-size: 18px;
+
+}
